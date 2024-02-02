@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for theme consistency */
+:root {
+  --color-primary: #4a5568; /* Indigo */
+  --color-secondary: #ed8936; /* Orange */
+  --color-accent: #48bb78; /* Green */
+  --color-background: #f7fafc; /* Light Gray */
+  --color-text: #141414; /* Dark Gray */
+  --font-base: 'Open Sans', sans-serif;
+}
+
+/* ----- Typography ----- */
+
+.body-font {
+  font-family: var(--font-base);
+}
+
+.h1 {
+  @apply text-4xl font-bold;
+}
+
+.h2 {
+  @apply text-3xl font-semibold;
+}
+
+.body-text {
+  @apply text-text text-base font-normal;
+}
+
+/* ----- Container for most sections ----- */
+.section-container {
+  @apply max-w-6xl mx-auto px-5 py-12;
+}
+
+/* ----- Button styles ----- */
+.btn {
+  @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+}
+
+.btn-primary {
+  @apply text-white bg-text;
+}
+
+.btn-secondary {
+  @apply text-gray-800 bg-gray-300 hover:bg-gray-400;
+}
+
+/* ----- Card styles ----- */
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden;
+}
+
+.card-header {
+  @apply bg-gray-100 px-5 py-3;
+}
+
+.card-body {
+  @apply px-5 py-3;
+}
+
+.card-footer {
+  @apply bg-gray-100 px-5 py-3 text-right;
+}
+
+/* ----- Form styles ----- */
+.input {
+  @apply border-2 border-gray-300 rounded-md px-4 py-2 outline-none focus:border-blue-500;
+}
+
+.button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700;
+}
+
+.label {
+  @apply block mb-2 text-sm font-medium text-gray-700;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+
+
