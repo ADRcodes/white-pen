@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Paths to the profile images (replace with the actual paths after downloading the images)
-const profileImage1 = '/testimonial1.png';
-const profileImage2 = '/testimonial2.png';
-const profileImage3 = '/testimonial3.png';
+const profileImage1 = 'src/assets/images/testimonial1.png';
+const profileImage2 = 'src/assets/images/testimonial2.png';
+const profileImage3 = 'src/assets/images/testimonial3.png';
 
 const TestimonialCard = ({ image, name, review }) => {
   return (

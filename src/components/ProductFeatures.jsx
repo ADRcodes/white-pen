@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Paths to the images (replace with the correct paths after downloading the images)
-const elegantDesignImage = '/pen-design.png';
-const premiumInkImage = '/ink-design.png';
-const ergonomicGripImage = '/grip-design.png';
+const elegantDesignImage = 'src/assets/images/pen-design.png';
+const premiumInkImage = 'src/assets/images/ink-design.png';
+const ergonomicGripImage = 'src/assets/images/grip-design.png';
 
 const FeatureCard = ({ title, description, imageUrl }) => {
   return (

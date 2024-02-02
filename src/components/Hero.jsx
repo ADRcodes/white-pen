@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className='flex justify-center bg-black'>
-      <div className="relative w-full max-w-6xl h-screen overflow-hidden flex items-center justify-center text-center" style={{ backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/white-pen-main.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="relative w-full max-w-6xl h-screen overflow-hidden flex items-center justify-center text-center" style={{ backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(src/assets/images/white-pen-main.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
         <div className="z-10">
           <h1 className="text-white text-5xl font-bold">The White Pen</h1>
